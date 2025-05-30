@@ -7,7 +7,7 @@ let producao = [
   "roteador"
 ];
 console.log(producao);
-
+//usando o pop para remover o ultimo item da lista 
 let removendoUltumoItem = producao.pop()
 
 console.log(producao);
