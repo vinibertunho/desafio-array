@@ -10,4 +10,3 @@ let importados = [
 importados.shift();
 
 console.log(importados);
-// Saída: [ 'cabo HDMI', 'leitor biométrico', 'controle sem fio', 'webcam 4K' ]
