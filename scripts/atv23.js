@@ -8,7 +8,7 @@ let candidatos = [
     "Bruno",
     "Isabela"
 ]
-
+//use o sort para ordenar os canditados
 let NomesOrdemAlfabetica = candidatos.sort()
   console.log(NomesOrdemAlfabetica);
   
