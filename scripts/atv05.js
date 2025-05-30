@@ -6,7 +6,7 @@ let importados = [
   "webcam 4K"
 ];
 
-// Remove o primeiro item (índice 0) da lista
+// Remove o primeiro item índice 0 da lista
 importados.shift();
 
 console.log(importados);
