@@ -7,7 +7,8 @@ let producao = [
   "roteador"
 ];
 console.log(producao);
-//usando o pop para remover o ultimo item da lista 
+// Remove o último elemento do array 'producao' usando o método pop()
+// O elemento removido é armazenado na variável 'removendoUltimoItem'
 let removendoUltumoItem = producao.pop()
 
 console.log(producao);
