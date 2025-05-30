@@ -9,7 +9,7 @@ let codigos = [
     "vwx234"
   ];
 console.log(codigos);
-
+// usei o map para deixar as letras maiusculas
 let maiuscula = codigos.map(codigos => codigos.toUpperCase())
 console.log(maiuscula);
 
