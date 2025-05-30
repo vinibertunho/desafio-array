@@ -8,9 +8,8 @@ let precos = [
     999.0
   ];
   
-  // Nova lista com os preços formatados em moeda brasileira (BRL)
-  let precosFormatados = precos.map(preco =>
-    preco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
+  let precosFormatados = precos.map(valor => 
+    valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
   );
   
   console.log(precosFormatados);

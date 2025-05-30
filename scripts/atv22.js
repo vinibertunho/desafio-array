@@ -6,7 +6,7 @@ let alunos = [
     { nome: "João", media: 7.0 },
     { nome: "Aline", media: 9.3 }
   ];
-  
+  //usei o filter e o map para mostrar e filtrar os alunos que passaram de ano
   let alunosRecuperacaoFinal = alunos
     .filter(aluno => aluno.media >= 7)
     .map(aluno => aluno.nome);
