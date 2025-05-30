@@ -12,7 +12,7 @@ let usuariosSistemaA = [
     "marcelo.cardoso"
   ];
   
-  // Combinar os dois arrays em uma nova lista
-  let usuariosCombinados = [...usuariosSistemaA, ...usuariosSistemaB];
+  // Usando concat para unir os dois arrays
+  let usuariosCombinados = usuariosSistemaA.concat(usuariosSistemaB);
   
   console.log(usuariosCombinados);
